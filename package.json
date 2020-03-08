@@ -1,7 +1,6 @@
 {
-	"name": "newsfeed",
-	"version": "0.1.0",
-	"private": true,
+	"name": "news_aggregator",
+	"version": "0.1.1",
 	"homepage": "https://www.villamar.io/news-aggregator/",
 	"dependencies": {
 		"axios": "^0.18.0",
