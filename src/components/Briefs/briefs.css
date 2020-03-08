@@ -1,0 +1,18 @@
+.news-briefs {
+	display: flex;
+	padding: var(--scale-20);
+}
+
+.news-briefs__header-title {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin: var(--scale-0);
+}
+
+.news-briefs__index {
+	font-size: 1.85rem;
+	font-weight: bold;
+	color: var(--black-10);
+	min-width: 50px;
+	margin-right: var(--scale-12);
+}

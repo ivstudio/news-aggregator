@@ -1,0 +1,28 @@
+/* variables */
+:root {
+	--scale-0: 0;
+	--scale-2: 2px;
+	--scale-4: 4px;
+	--scale-8: 8px;
+	--scale-12: 12px;
+	--scale-16: 16px;
+	--scale-20: 20px;
+	--scale-24: 24px;
+	--scale-32: 32px;
+	--scale-40: 40px;
+	--scale-48: 48px;
+	--black-10: rgba(0, 0, 0, 0.15);
+	--black-30: rgba(0, 0, 0, 0.35);
+	--black-60: rgba(0, 0, 0, 0.65);
+	--black-80: rgba(0, 0, 0, 0.85);
+	--main-bg-color: #ffffff;
+	--gray-30: #fafafa;
+	--elevention-0: 0 2px 2px -2px rgba(0, 0, 0, 0.15);
+	--serif: Times, serif;
+	--sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	--round-corners: 2px;
+}
+
+body {
+	font-family: var(--sans);
+}

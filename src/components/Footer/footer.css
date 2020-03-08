@@ -1,0 +1,15 @@
+.footer {
+	min-height: 50px;
+	padding: var(--scale-12) var(--scale-24);
+	background-color: var(--main-bg-color);
+}
+
+.footer__copyright {
+	color: var(--black-60);
+	font-size: 0.85rem;
+}
+
+.footer__copyright a {
+	color: var(--black-80);
+	font-weight: bold;
+}
