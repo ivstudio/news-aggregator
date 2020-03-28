@@ -5,7 +5,7 @@ This news aggregator uses the [News API](https://newsapi.org/) to fetch lastest 
 -   Bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 -   Grid system [materialize-css](https://materializecss.com)
 
-[View Live Demo](https://www.villamar.io/news-aggregator/)
+[View Live Demo](https://www.ivstudio.com/news-aggregator)
 
 ## Available Scripts
 
