@@ -12,7 +12,7 @@ const News = ({ news, layout }) => {
 		const { type, query } = news;
 
 		const fetchNews = async () => {
-			const url = `//newsapi.org/v2/${type}?${query}&apiKey=${NEWS_API}`;
+			const url = `//newsapi.org/v2/${type}?${query}&apiKey=e4eab21dfd6247abbbb15cc7826c8343`;
 			try {
 				const articles = await axios.get(url);
 				setStories(articles.data.articles);
