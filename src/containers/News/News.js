@@ -12,7 +12,7 @@ const News = ({ news, layout }) => {
 		const { type, query } = news;
 
 		const fetchNews = async () => {
-			const url = `https://newsapi.org/v2/${type}?${query}&apiKey=${NEWS_API}`;
+			const url = `//newsapi.org/v2/${type}?${query}&apiKey=${NEWS_API}`;
 			try {
 				const articles = await axios.get(url);
 				setStories(articles.data.articles);
@@ -26,7 +26,7 @@ const News = ({ news, layout }) => {
 	if (layout === 'headlines') {
 		return (
 			<div className="news__block">
-				{stories.map(story => (
+				{stories.map((story) => (
 					<Headlines key={story.url} item={story} />
 				))}
 			</div>
@@ -44,7 +44,7 @@ const News = ({ news, layout }) => {
 	}
 
 	/* default story */
-	return stories.map(story => <MainFeed key={story.url} item={story} />);
+	return stories.map((story) => <MainFeed key={story.url} item={story} />);
 };
 
 export default News;
