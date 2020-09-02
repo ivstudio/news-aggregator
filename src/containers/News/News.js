@@ -10,7 +10,7 @@ const News = ({ news, layout }) => {
 	useEffect(() => {
 		const NEWS_API = process.env.REACT_APP_NEWS_API;
 		const { type, query } = news;
-
+		console.log(NEWS_API);
 		const fetchNews = async () => {
 			const url = `//newsapi.org/v2/${type}?${query}&apiKey=e4eab21dfd6247abbbb15cc7826c8343`;
 			try {
