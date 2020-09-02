@@ -12,7 +12,8 @@ const News = ({ news, layout }) => {
 		const { type, query } = news;
 		console.log(NEWS_API);
 		const fetchNews = async () => {
-			const url = `//newsapi.org/v2/${type}?${query}&apiKey=e4eab21dfd6247abbbb15cc7826c8343`;
+			// const url = `//newsapi.org/v2/${type}?${query}&apiKey=e4eab21dfd6247abbbb15cc7826c8343`;
+			const url = `https://newsapi.org/v2/everything?q=bitcoin&from=2020-08-02&sortBy=publishedAt&apiKey=e4eab21dfd6247abbbb15cc7826c8343`;
 			try {
 				const articles = await axios.get(url);
 				setStories(articles.data.articles);
